@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        #wrap {width: 100%;}
+
+        h1 {text-align: center; background: #666; color: #fff; padding: 20px;}
+    </style>
+</head>
+<body>
+    <div id="wrap"></div>
+    <h1>우리의 문화재</h1>
+    <form>
+        <label>선택을 시작하겠습니까?</label>
+        <span class="start">시작함</span>
+        <div class="view">
+            <label>원하는 문화재는?</label>
+            <input type="radio" name="mun" value="석굴암" checked><span>석굴암</span><br>
+            <input type="radio" name="mun" value="남대문"><span>남대문</span><br>
+            <input type="radio" name="mun" value="독립기념관"><span>독립기념관</span><br>
+            <button type="button" onclick="">선택완료</button>
+            <div class="imgbox">
+                <img src="img/석굴암.jpg" alt="석굴암">
+                <img src="img/남대문.jpg" alt="남대문">
+                <img src="img/독립기념관.jpg" alt="독립기념관">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
